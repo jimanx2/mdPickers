@@ -622,7 +622,7 @@ function ClockCtrl($scope) {
     
     this.STEP_DEG = 360 / 12;
     this.steps = [];
-    
+    this.time = moment(); 
     this.CLOCK_TYPES = {
         "hours": {
             range: 12,
